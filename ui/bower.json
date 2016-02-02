@@ -1,0 +1,17 @@
+{
+  "name": "views",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery" : "1.11.1",
+    "handlebars": "2.0.0",
+    "ember": "1.9.0"
+  }
+}
