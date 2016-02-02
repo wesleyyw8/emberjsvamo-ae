@@ -1,8 +1,26 @@
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>ember js vamo ae</title>
+	<script src="../bower_components/jquery/dist/jquery.min.js"></script>	
+	<script src="../bower_components/handlebars/handlebars.min.js"></script>	
+	<script src="../bower_components/ember/ember.min.js"></script>
+	<script src="../controllers/app.js"></script>	
 </head>
 <body>
-	ember!
+	<script type="text/x-handlebars" id="index">
+		<h1>Welcome</h1>
+		<p>Hello World! Welcome to Timezone Finder.</p>
+	</script>
+	<script type="text/x-handlebars" id="list">
+		<h1>Full List</h1>
+	</script>
+	<script type="text/x-handlebars">
+		<ul id="menu">
+			<li>{{#link-to 'index'}}Welcome{{/link-to}}</li>
+			<li>{{#link-to 'list'}}Full List{{/link-to}}</li>
+		</ul>
+	</script>
 </body>
+
 </html>
